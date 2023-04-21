@@ -7,6 +7,8 @@
 *.dll
 *.so
 *.dylib
+# 不上传mysql的data数据
+**/docker-compose/mysql/data/**
 
 # Test binary, built with `go test -c`
 *.test
